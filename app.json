@@ -1,0 +1,12 @@
+{
+  "name": "first-trial-app",
+  "displayName": "first-trial-app",
+  "expo": {
+    "name": "first-trial-app",
+    "slug": "first-trial-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
