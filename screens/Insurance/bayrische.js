@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text, ScrollView, Linking, Image} from 'react-native';
+import { Text, ScrollView, Linking, Image, View} from 'react-native';
 import Styles from '../../styles/styles'
 
 
@@ -15,7 +15,7 @@ const Bayrische = () =>  {
     <Image source={require('./../../styles/images/umbrellaSky.jpg')}
       style={{height: 200, width: 400}}></Image>
       
-      <Text style={Styles.articleTextBlock}>
+      <View style={Styles.articleTextBlock}>
         <Text style={Styles.subHeader}>Versorgungsanstalt der deutschen Bühnen</Text>
         <Text style={Styles.paragraph}> Die Versorgungsanstalt der deutschen Bühnen ist eine berufsständische Pflichtversorgungseinrichtung. Sie hat die Aufgabe, den an deutschen Theatern abhängig beschäftigten Bühnenangehörigen im Wege der Pflichtversicherung eine zusätzliche Alters-, Berufsunfähigkeits- und Hinterbliebenenversorgung zu gewähren.</Text>
         <Text style={Styles.paragraph}>Die Versorgungsanstalt bietet für Tänzer und Tänzerinnen, die den Bühnenberuf aufgeben folgende Möglichkeiten: die Inanspruchnahme einer sog. Tänzerabfindung, die Weiterversicherung oder die teilweise Inanspruchnahme einer Tänzerabfindung gekoppelt an eine Weiterversicherung bei der Versorgungsanstalt der deutschen Bühnen.</Text>
@@ -30,12 +30,12 @@ const Bayrische = () =>  {
         <Text style={Styles.paragraph}>Stets besteht anstelle der Tänzerabfindung ein Anspruch auf ein Ruhegeld wegen Erwerbsunfähigkeit bei sonst gegebenen Voraussetzungen.</Text>
         <Text style={Styles.paragraph}>Die Sonderregelung für die Tänzerabfindung gilt nicht, wenn der Tänzer oder die Tänzerin nach dem Ende der Spielzeit, in welcher dieser oder diese das 44. Lebensjahr vollendet hat, durch ein Theater versichert ist. In diesem Fall finden ausschließlich die allgemeinen Satzungsbestimmungen Anwendung.</Text>
         
-       </Text>
+       </View>
 
        <Image source={require('./../../styles/images/dancerOnYellow.jpg')}
       style={{height: 200, width: 400}}></Image>
 
-       <Text style={Styles.articleTextBlock}>
+       <View style={Styles.articleTextBlock}>
            <Text style={Styles.subHeader}>Möglichkeit der Weiterversicherung</Text>
                 <Text style={Styles.paragraph}>Statt der Inanspruchnahme einer Abfindung kann sich ein Tänzer oder eine Tänzerin nach Aufgabe des Bühnenberufs alternativ weiterversichern. Eine Weiterversicherung hat den Vorteil, dass dadurch ggf. die Wartezeit für das Altersruhegeld erreicht wird und dadurch ein Anspruch auf Altersruhegeld, flexibles Altersruhegeld oder auf Hinterbliebenenversorgung entsteht.</Text>
                 <Text style={Styles.paragraph}>Ohne Weiterversicherung wird die Versicherung als beitragsfreie Versicherung fortgeführt. Während der beitragsfreien Versicherung werden keine Versicherungszeiten zurückgelegt und es besteht kein Versicherungsschutz bei Berufs- oder Erwerbsunfähigkeit. Außerdem wächst die Rentenanwartschaft nicht.</Text>
@@ -46,7 +46,7 @@ const Bayrische = () =>  {
                 <Text style={Styles.paragraph}>Detaillierte Ausführungen zur Tänzerabfindung, der Weiterversicherung und der beitragsfreien Versicherung können – auch auf Englisch – unter 
                     <Text style={Styles.articleBullet} onPress={()=> Linking.openURL('https://www.buehnenversorgung.de')}>https://www.buehnenversorgung.de nachgelesen werden.</Text>
                 </Text>
-       </Text>
+       </View>
     </ScrollView>
   );
 }

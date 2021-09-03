@@ -18,16 +18,16 @@ const berufsPortrait = () =>   {
 
       <Text style={Styles.articleTextBlock}>Eine Auflistung mit verschiedensten Berufen gibt es auch unter folgenden Webseiten: </Text>
 
-      <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+      <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://www.aubi-plus.de/berufe/a-z/')}>
           ⨀ www.aubi-plus.de/berufe/a-z/</Text>
-    <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+    <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://www.einstieg.com/ausbildung/berufe-a-z.html')}>
           ⨀ www.einstieg.com/ausbildung/berufe-a-z.html</Text>
-    <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+    <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://planet-beruf.de/schuelerinnen/mein-beruf/berufe-von-a-z/')}>
           ⨀ planet-beruf.de/schuelerinnen/mein-beruf/berufe-von-a-z/</Text>
-    <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+    <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://www.xing.com/campus/de/job-search')}>
           ⨀ www.xing.com/campus/de/job-search</Text>
 

@@ -1,11 +1,19 @@
 ### TO DO
 
-# Landing Page
-- add "wir helfen" and extend picture to cover screen
+## PROBLEMS - TO FIX 
 
-# Ideen/Berufsfindung -> Berufsfragebogen
-- code pt System and Auswertung
-- Transition Stories!!
+# Styling for IPhone 
+- Landing page: 
+    - Hamburger logo wasn't recognized 
+    - View doesn't scroll for Was Machen Wir?
 
-# Umsetzung
-- Studienplatzsuche: Add links in last and before last paragraph -> www.studienwahl.de & link to Bewerbungsprzess screen
+- Menu Page: 
+     - Background Image doesn't load
+
+- Top logo bar: Text and logo doesn't fit
+
+- Some Sub Menu screens overflow picture 
+
+- Personal menu: add navigation to all links 
+
+- handle photo layout in wide screen/ rotated screen

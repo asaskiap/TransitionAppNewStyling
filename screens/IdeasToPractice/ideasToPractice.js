@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     marginRight: 70,
     marginTop: 150,
-    marginBottom: 90,
+    marginBottom: 29,
     fontWeight: 'bold',
     lineHeight: 35,
     backgroundColor: 'rgba(154, 205, 50, 0.9)',      

@@ -22,7 +22,7 @@ export const Bildungskredit = () =>  {
        </Text>
 
 
-    <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+    <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('www.bildungskredit.de')}>
           ⨀ Mehr unter: www.bildungskredit.de</Text>
 
@@ -52,7 +52,7 @@ export const Studienkredit = () =>  {
         <Text style={Styles.paragraph}>Bis zu 14 Semester lang können Studierende ihre Lebenshaltungskosten mit einem Studienkredit finanzieren. Die monatlichen Kreditbeträge können von 100,- bis zu 650,- Euro betragen, abhängig vom Wunsch des Kreditnehmers oder der Kreditnehmerin. Die Zinsen sind vergleichsweise niedrig und mit der Rückzahlung ist zwischen 6 und 23 Monate nach Studienabschluss zu beginnen. Der Kreditantrag ist möglichst 3 Monate vor Finanzierungsbeginn bei einem KfW-Vertriebspartner, das ist ein Studentenwerk, eine Bank oder Sparkasse vor Ort, einzureichen. Weitere Informationen zum Studienkredit der KfW gibt es auf der Internetseite der KfW Bankengruppe. Höchstalter: 44 Jahre.</Text>
         
         <Text 
-        style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+        style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
         onPress={() => Linking.openURL('https://www⦁	.kfw.de/inlandsfoerderung/Privatpersonen/Studieren-Qualifizieren/Finanzierungsangebote/KfW-Studienkredit-(174)/')}>⨀ Mehr unter: www.kfw.de/</Text> 
 </Text>
 
@@ -71,7 +71,7 @@ export const Studienkredit = () =>  {
   
        
 
-        <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+        <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://www.kfw.de')}>
           ⨀ Mehr unter: www.kfw.de</Text>
   

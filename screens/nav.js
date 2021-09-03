@@ -1,17 +1,14 @@
 import * as React from 'react';
-import { StyleSheet, TouchableOpacity, View, Text, ImageBackground } from 'react-native';
+import { StyleSheet, TouchableOpacity, View, Text, ImageBackground, ScrollView } from 'react-native';
 
 
 
 
 const NavMenu = ({navigation}) => {
 return ( 
-  <View>
-  <ImageBackground 
-        source={require('./../styles/images/img-background.png') }
-        style={styles.backgoundImage}
-      >
-      <View style={styles.nav}>
+  <ScrollView>
+  
+      <ScrollView style={styles.nav}>
        
             <TouchableOpacity onPress={() => navigation.navigate('Stiftung Tanz')} >
               <Text style={styles.navText}>Startseite</Text>
@@ -47,9 +44,8 @@ return (
               <Text style={styles.navText}>Selbstständigkeit</Text>
             </TouchableOpacity>
            
-        </View> 
-      </ImageBackground>
-      </View>
+        </ScrollView> 
+      </ScrollView>
     );
   
 } 
@@ -61,8 +57,7 @@ return (
 
 const styles = StyleSheet.create({
   nav:{
-    flex:1, 
-    flexGrow: 1,
+    
     paddingTop: 10,
     backgroundColor: 'rgba(69, 97, 157, 0.8)',
     display: 'flex',

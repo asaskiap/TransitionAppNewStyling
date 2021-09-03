@@ -59,7 +59,7 @@ export class PersonalMenu extends React.Component {
         <ImageBackground 
         style={styles.image}
         source={require('./../styles/images/danceImages/cambre.jpeg')} >
-          <Text style={Styles.header}>Entscheidungsbaum</Text>
+          <Text style={Styles.header}>Entscheidungs- baum</Text>
         </ImageBackground>
 
         <Text style={Styles.subHeader}>
@@ -79,7 +79,7 @@ export class PersonalMenu extends React.Component {
 
         {this.state.displayCouncellingInvite1 && (
           <View>
-              <Text style={styles.textBlock}>Vereinbare gerne einen Beratungstermin unter <Text style={{fontWeight: 'bold'}}>info@stiftung-tanz.com! </Text>
+              <Text style={styles.textBlock}>Vereinbare gerne einen Beratungstermin unter <Text style={{fontWeight: 'bold'}}> info@stiftung-tanz.com! </Text>
             Unsere Psychologen helfen dir beim Herausfinden von deinen
             verborgenen Talenten, Interessen, Leidenschaften.
             Schau auch gerne unter</Text> 
@@ -108,7 +108,7 @@ export class PersonalMenu extends React.Component {
             {this.state.displayCouncellingInvite2 && (
               <View>
                 <Text style={styles.textBlock}>Vereinbare gerne einen Beratungstermin unter
-                <Text style={{fontWeight: 'bold'}}>info@stiftung-tanz.com!</Text> Unsere Psychologen helfen dir beim Suchen
+                <Text style={{fontWeight: 'bold'}}> info@stiftung-tanz.com!</Text> Unsere Psychologen helfen dir beim Suchen
                 einer geeigneten Ausbildung. Schau auch gerne unter:</Text>
                 <TouchableOpacity>
                   <Text style={styles.navText}> Wie setze ich meine Idee um?</Text>

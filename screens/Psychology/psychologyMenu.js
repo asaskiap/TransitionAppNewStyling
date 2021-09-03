@@ -65,9 +65,9 @@ const styles = StyleSheet.create({
   header: {
       fontSize: 30,
       paddingLeft: 10,
-      marginLeft: 80,
-      marginTop: 30,
-      marginBottom: 130,
+      marginLeft: 70,
+      marginTop: 10,
+      marginBottom: 30,
       fontWeight: 'bold',
       lineHeight: 35,
       backgroundColor: 'rgba(154, 205, 50, 0.9)',
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
   },
   choiceText: {
     fontSize: 20,
-    fontWeight: 500,
+    fontWeight: '500',
     textAlign: 'center',
     color: '#313131'
    

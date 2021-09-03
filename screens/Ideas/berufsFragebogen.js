@@ -128,10 +128,10 @@ render(){
       style={{width: 100, height: 10, marginLeft: '35%', marginVertical: 20}} ></Image>
 
       
-        <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} >⨀ Verweise auf Berufsfindungstests</Text>
+        <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} >⨀ Verweise auf Berufsfindungstests</Text>
 
         <Text 
-        style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+        style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
         onPress={() => Linking.openURL('https://www.ausbildung.de/berufscheck/?gclid=Cj0KCQjw--GFBhDeARIsACH_kdZdbN8dgh9xKs2Qou_urjgXwM1qwxdpQZZz9-XTeCi221GGP2nax9UaAtcNEALw_wcB')}>
             ⨀ Berufscheck für deine Ausbildung</Text>
 
@@ -141,12 +141,12 @@ render(){
             ⨀ Berufs-Check | Finde heraus, welcher Beruf zu dir passt (aubi-plus.de)</Text>
 
         <Text 
-        style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20,fontWeight: 600, color: '#FF6B53'}}
+        style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20,fontWeight: '600', color: '#FF6B53'}}
         onPress={() => Linking.openURL('https://www.einstieg.com/kein-plan/berufswahltest.html')}>
             ⨀ Kostenloser Online-Berufswahltest: Interessencheck - Einstieg</Text>
 
         <Text 
-        style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53'}} 
+        style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53'}} 
         onPress={() => Linking.openURL('https://www.azubiyo.de/berufswahltest/')}>
             ⨀ Welche Berufe passen zu mir? - Bundesagentur für Arbeit (arbeitsagentur.de)</Text>
 

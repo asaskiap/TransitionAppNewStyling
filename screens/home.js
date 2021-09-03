@@ -94,12 +94,12 @@ export default class HomeScreen extends React.Component {
             </TouchableOpacity>
 
                
-                <View style={styles.menuButton}>
+                
                  <TouchableOpacity 
                     onPress={() => this.props.navigation.navigate('Menu')}>
-                        <Image source={require('./../styles/images/hamburger.svg')}
+                        <Image source={require('./../styles/images/logos/stiftungLogo_blue.png')}
                         style={styles.hamburger}></Image>
-                    </TouchableOpacity></View>
+                    </TouchableOpacity>
 
               
         {this.state.displayWer && (<WerSindWir close={this.close}/>)}
@@ -150,11 +150,12 @@ const styles = StyleSheet.create({
     
   },
   menuButton:{
-   position: 'absolute',
-   bottom: 5,
+  // position: 'absolute',
+   top: 55,
    right: 15
   },
   hamburger: {
-    height: 60, width: 60
+    height: 50, width: 50,
+    borderRadius: 50
   }
 })

@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
   },
   choiceText: {
     fontSize: 20,
-    fontWeight: 500,
+    fontWeight: '500',
     textAlign: 'center',
     color: '#313131'
    

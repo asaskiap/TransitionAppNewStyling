@@ -14,7 +14,7 @@ const Aufstiegsstipendium = () =>  {
         <Image source={require('./../../styles/images/moneyplant.jpg')}
       style={{height: 200, width: 400}}></Image>
       
-      <Text style={Styles.articleTextBlock}>
+      <View style={Styles.articleTextBlock}>
 
         <Text style={Styles.paragraph}>
         Das Aufstiegsstipendium unterstützt Berufserfahrene bei der Durchführung
@@ -29,8 +29,8 @@ const Aufstiegsstipendium = () =>  {
         erster Anfrage durch die Stiftung TANZ dürfte das Aufstiegsstipendium
         für TänzerInnen, die ihre Ausbildung an einer Berufsfach-schule
         absolviert haben, zugänglich sein.
-      </Text>
-        <Text style={Styles.subHeader}>
+      </Text> 
+        <Text style={Styles.paragraph}>
         Die Voraussetzungen für eine Bewerbung sind:</Text>
         <Text style={Styles.articleBullet}>● eine abgeschlossene Berufsausbildung oder Aufstiegsfortbildung</Text>
         <Text style={Styles.articleBullet}>● Berufserfahrung von
@@ -45,7 +45,7 @@ const Aufstiegsstipendium = () =>  {
         staatlich ge-förderten KfW-Bank oder Stipendien von verschiedensten
         Stiftungen. Mehr unter: www.studienfinanzierung.de
         </Text>
-      </Text>
+      </View>
 
       <Text style={Styles.articleHeaderRed}>Ab 1. August 2016: Aufstiegs-Bafög (statt Meister-Bafög)</Text>
 

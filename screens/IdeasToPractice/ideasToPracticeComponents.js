@@ -19,19 +19,19 @@ export const Universitaeten = () =>  {
       Es gibt ein paar gute Seiten im Netz, auf denen eine Auflistung aller Universitäten und deren Studiengänge zu finden sind. Dort sind meist auch gleich nützliche Informationen mit angegeben, ob beispielsweise mit einem NC zu rechnen ist, ob der Studiengang im Winter- und Sommersemester angeboten wird, wie viele Studenten pro Jahr zugelassen werden oder was die möglichen Berufsfelder wären in denen man mit einem Abschluß in einem bestimmten Studienfach arbeiten kann. Die folgenden Seiten bieten dazu eine nützliche Übersicht, welche bei der ersten Orientierung oder ideen-generierender Suche helfen kann: </Text>
 
 
-          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://www.hochschulkompass.de/hochschulen.html')}>
           ⨀ www.hochschulkompass.de</Text>
 
-          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://www2.daad.de/deutschland/studienangebote/studiengang/de/')}>
           ⨀ www2.daad.de/deutschland</Text>
           
-          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://studiengaenge.zeit.de/hochschulen/land/deutschland?wt_ref=https:%2F%2Fwww.google.com%2F&wt_time=1625245417754')}>
           ⨀ studiengaenge.zeit.de/hochschulen/</Text> 
           
-    <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+    <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://studieren.de/landkarte-unis-deutschland.0.html')}>
           ⨀ studieren.de </Text>
 
@@ -99,23 +99,23 @@ export const Ausbildungsbetriebe = () =>  {
   
        
 
-        <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+        <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://www.arbeitsagentur.de/m/ausbildungklarmachen/?pk_campaign=AusbildungKlarmachen&pk_source=google_paid&pk_medium=textad&pk_content=Performance')}>
           ⨀ www.arbeitsagentur.de/</Text>
 
-          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://www.ihk-berlin.de/ausbildung/infos-fuer-ausbildungsbetriebe/ausbildungsbetrieb-werden/wegweiser-fuer-ausbildungsbetriebe-2277902')}>
           ⨀ https://www.ihk-berlin.de/</Text>
 
-          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://www.bibb.de/de/65925.php')}>
           ⨀ https://www.bibb.de/</Text>
 
-          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://www.bmwi.de/Navigation/DE/Service/Ausbildungsberufe/ausbildungsberufe.html')}>
           ⨀ https://www.bmwi.de/</Text>
 
-          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} 
+          <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} 
       onPress={() => Linking.openURL('https://planet-beruf.de/schuelerinnen/mein-beruf/berufe-von-a-z/')}>
           ⨀ https://planet-beruf.de/</Text>
         

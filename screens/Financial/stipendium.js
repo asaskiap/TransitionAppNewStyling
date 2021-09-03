@@ -32,7 +32,7 @@ const Stipendium = ()  => {
         Teilnahme an einem Transition-Workshop.
       </Text>
 
-      <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: 600, color: '#FF6B53' }} >
+      <Text style={{fontSize: 20, marginHorizontal: 10, marginVertical: 20, fontWeight: '600', color: '#FF6B53' }} >
         Bewerbungen bitte ausschließlich (Ausnahmefälle nach persönlicher
         Absprache) per Email als eine zusammengefügte PDF-Datei an:
         info@stiftung-tanz.com

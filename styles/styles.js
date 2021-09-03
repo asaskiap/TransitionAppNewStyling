@@ -66,7 +66,7 @@ const  AppStyles = StyleSheet.create({
   },
   choiceText: {
     fontSize: 20,
-    fontWeight: 500,
+    fontWeight: '500',
     textAlign: 'center',
     color: '#313131'
    
@@ -175,13 +175,13 @@ const  AppStyles = StyleSheet.create({
     color: '#707070',
     paddingVertical: 10,
     color: '#45619D',
-    fontWeight: 500
+    fontWeight: '500'
 
   },
 
   articleHeader: {
     fontSize: 24,
-    fontWeight: '550',
+    fontWeight: '500',
     textAlign: 'center',
     marginVertical: 20
   },
@@ -191,7 +191,7 @@ const  AppStyles = StyleSheet.create({
     margin: 20,
     paddingVertical: 20,
     fontSize: 24,
-    fontWeight: '550',
+    fontWeight: '500',
     textAlign: 'center',
     marginVertical: 20
   },
@@ -208,8 +208,6 @@ const  AppStyles = StyleSheet.create({
     margin: 16,
     fontSize: 17,
     lineHeight: 28,
-    borderColor: '#92E111',
-    borderWidth: 1,
     backgroundColor: '#FFFFFF',
     color: '#707070',
     shadowColor: "#00000029",

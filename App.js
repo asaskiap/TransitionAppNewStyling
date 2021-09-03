@@ -93,7 +93,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} />
 
          
@@ -104,7 +104,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }}/>
 
          <Stack.Screen name="Finanzierung" component={FinancialScreen} 
@@ -113,7 +113,7 @@ class App extends React.Component {
           backgroundColor: '#0040A2',
         },
           headerTintColor: '#ebf3fa',
-          headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>}}/>
+          headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>}}/>
 
          <Stack.Screen name="Aufstiegsstipendium" component={Aufstiegsstipendium}
          options={{ 
@@ -122,7 +122,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} />
 
          <Stack.Screen name="Bafög" component={Bafoeg} 
@@ -131,7 +131,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }}/>
           
          <Stack.Screen name="Stipendium" component={Stipendium} 
@@ -140,7 +140,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=><Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }}/>
 
           <Stack.Screen name="Bildungskredit" component={Bildungskredit} 
@@ -149,7 +149,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }}/>   
 
           <Stack.Screen name="Studienkredit" component={Studienkredit} 
@@ -158,7 +158,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }}/>   
 
 
@@ -169,7 +169,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }}/>   
 
          <Stack.Screen name="Psychologische Aspekte" component={Psychology}
@@ -179,7 +179,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} />
             
          <Stack.Screen name="Abschied" component={Abschied} 
@@ -188,7 +188,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }}/>
 
       <Stack.Screen name="Veränderung" component={Veraenderung} 
@@ -197,7 +197,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }}/>  
 
     <Stack.Screen name="Unsicherheiten" component={Unsicherheiten} 
@@ -206,7 +206,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }}/>  
 
       <Stack.Screen name="Wer Bin Ich?" component={WerBinIch} 
@@ -215,7 +215,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }}/> 
 
 
@@ -226,7 +226,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
       <Stack.Screen name="Bayrische" component={Bayrische}
@@ -235,7 +235,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
         <Stack.Screen name="KSK" component={KSK}
@@ -244,7 +244,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
 
@@ -255,7 +255,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
         <Stack.Screen name="Berufsinteressen" component={berufsFragebogen}
@@ -265,7 +265,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
       <Stack.Screen name="Berufe Vorstellen" component={berufsPortrait}
@@ -275,7 +275,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
     <Stack.Screen name="Transition Stories" component={TransitionStories}
@@ -285,7 +285,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
         <Stack.Screen name="Deutschland" component={GermanyMenu}
@@ -294,7 +294,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
         <Stack.Screen name="Deutschkurse" component={Deutschkurse}
@@ -303,7 +303,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
         <Stack.Screen name="Visum" component={Visum}
@@ -312,7 +312,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
       <Stack.Screen name="Zeugnisse" component={Zeugnisanerkennung}
@@ -321,7 +321,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=><Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
       <Stack.Screen name="Nachweise" component={Nachweise}
@@ -330,7 +330,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
 
@@ -343,7 +343,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
         <Stack.Screen name="Umsetzung" component={IdeasToPractice}
@@ -352,7 +352,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
         <Stack.Screen name="Universitäten" component={Universitaeten}
@@ -361,7 +361,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
         <Stack.Screen name="Studienplatzsuche" component={Studienplatzsuche}
@@ -371,7 +371,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
         <Stack.Screen name="Ausbildungsbetriebe" component={Ausbildungsbetriebe}
@@ -381,7 +381,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} /> 
 
         <Stack.Screen name="Bewerbungsprozess" component={Bewerbungsprozess}
@@ -391,7 +391,7 @@ class App extends React.Component {
             backgroundColor: '#0040A2',
           },
             headerTintColor: '#ebf3fa',
-            headerRight: ()=> <Image  style={{ height: 28, width: 170, marginRight: 10}} source={{ uri: "https://stiftung-tanz.com/wordpress/wp-content/uploads/2017/03/logo.png"}}></Image>
+            headerRight: ()=> <Image  style={{ height: 32, width: 32, marginRight: 10, borderRadius: 50}} source={require('./styles/images/logos/stiftungLogo_blue.png')}></Image>
           }} />   
 
 
